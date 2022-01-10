@@ -1,0 +1,31 @@
+
+# Reset previous results
+reset;
+# Specifiy folder directory
+option ampl_include 'D:\Hello Dream 2020\FSS 2021\OPM 682\4. Home Assignment';
+# Load model
+model 'OPM682_HA_automated.mod';
+# Load data
+data 'OPM682_HA_automated.dat';
+# Choose solver
+option solver cplex;
+# Select problem to solve
+problem alternative1;
+# Solve the model
+solve;
+
+print "\n Alternative1 \n\n";
+display y;
+display Revenue;
+display CAP;
+
+
+# Select problem to solve
+problem alternative2;
+# Solve the model
+solve;
+
+print "\n Alternative2 \n\n";
+display y;
+display Revenue;
+display CAP; 

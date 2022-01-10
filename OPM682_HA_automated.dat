@@ -1,0 +1,44 @@
+
+
+set J = 1 2 3 4 5;
+set L = "FN" "SN" "TN";
+
+param p[*] :=
+#Product		Price
+1				900
+2				300
+3				400
+4				200
+5				200;
+
+param a[*,*] :=
+#Leg	Product 	Value
+FN		1			1			
+FN		2			1
+FN		3			0
+FN		4			0
+FN		5			1
+SN		1			1
+SN		2			1
+SN		3			1
+SN		4			0
+SN		5			0
+TN		1			1
+TN		2			0
+TN		3			1
+TN		4			1
+TN		5			0;
+
+param c[*] :=
+#Leg 	Capacity
+FN		150
+SN		150
+TN		150;
+
+param ED[*] :=
+#Product 	Expected Demand
+1			60
+2			60
+3			50
+4			40
+5			80;
