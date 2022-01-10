@@ -158,6 +158,14 @@ Conclusion B:
 2. When the hotel is made to follow the Mayor's guideline, the opportunity cost of the required resources for the package no. 5 exceeds its price. Thus, it is clear that the hotel will accommodate the Mayor's request by selling package 4 (1-night stay: day 3 to day 4) which only uses third night capacity with zero opportunity cost.
 3. In both alternatives, the opportunity cost of the required resources for the package no. 2 is equivalent to its price.
 
+The below talbe compares prices of packages with sum of the bid prices for all requried resources.
+|No.|Package|Price|Associated Resources|Without Mayor's guideline|Subject to Mayor's guideline|
+|:---:|:---:|:---:|:---:|:---:|:---:|
+|1|3-night stay (day 1 to 4)|900|First, second, and third nights|300|300|
+|2|2-night stay (day 1 to 3)|300|First and second nights|300|300|
+|3|2-night stay (day 2 to 4)|400|Second and third nights|100|0|
+|4|1-night stay (day 3 to 4)|200|Third night|0|0|
+|5|1-night stay (day 1 to 2)|200|First night|200|300|
 
 ## License
 This repository contains a [MIT LICENSE](https://github.com/iamphuc/Deterministic-Linear-Programming/blob/main/LICENSE)
