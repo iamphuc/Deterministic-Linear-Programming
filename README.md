@@ -93,7 +93,9 @@ To understand where the difference is coming from, let's look at the optimal num
 <details><summary>CLICK ME</summary>
   <p>
 
-    The hotel would have to give up 10 units of package 2 (higher pricec package) for 10 additional units of package 5 (lower price package) so that the minimum of 100 units single night packages (package 4 and package 5) can be met. This tradeoff resutls in a lower revenue for the hotel.
+    The hotel would have to give up 10 units of package 2 (higher pricec package) for 10 additional units of package 5 
+    (lower price package) so that the minimum of 100 units single night packages (package 4 and package 5) can be met. 
+    This tradeoff resutls in a lower revenue for the hotel.
     
    <p>
    </details>
