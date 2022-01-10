@@ -128,7 +128,12 @@ Capacity consumption breakdown (subject to Mayor's guideline):
     Demands for package 2 (60 units) are then left with only 40 rooms (150 - 60 - 50 = 40 rooms).
     
     This result is robust across different cases (with Mayor's guidance versus without Mayor's guidance) because 
-    the guidance does not affect the sale of package 1 and package 3. Intuitively, it makes sense to reserve just 100 rooms for the sale of package 4 and package 5 because prices of these two packages are much lower than prices of package 1, package 2, and package 3. However, the usage of package 4 and package 5 does not concentrate on one night. Demand for package 5 arrives on the first night while demand for package 4 arrives on the third night. Therefore, the hotel is able to serve more of the higher price packages. That makes the difference between the two cases only $1,000.
+    the guidance does not affect the sale of package 1 and package 3. Intuitively, it makes sense to reserve 
+    just 100 rooms for the sale of package 4 and package 5 because prices of these two packages are much lower 
+    than prices of package 1, package 2, and package 3. However, the usage of package 4 and package 5 does not 
+    concentrate on one night. Demand for package 5 arrives on the first night while demand for package 4 
+    arrives on the third night. Therefore, the hotel is able to serve more of the higher price packages. 
+    That makes the difference between the two cases only $1,000.
     
    <p>
    </details>
