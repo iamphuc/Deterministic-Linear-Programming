@@ -2,7 +2,7 @@
 # Reset previous results
 reset;
 # Specifiy folder directory
-option ampl_include 'D:\Hello Dream 2020\FSS 2021\OPM 682\4. Home Assignment';
+option ampl_include '[*fill in the directory where you keep the .mod and .dat files*]';
 # Load model
 model 'OPM682_HA_automated.mod';
 # Load data
