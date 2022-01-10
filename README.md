@@ -137,3 +137,14 @@ Capacity consumption breakdown (subject to Mayor's guideline):
     
    <p>
    </details>
+
+## Bid Prices
+Bid prices refer to threshold values that are set for each leg of a network, such that the hotel accepts a request for a particular package, if and only if there is available capacity, and the price exceeds the sum of the bid prices for all resources (bedrooms in consecutive nights) used by the package. In essence, bid prices reflect the minimum value of the next bedroom sold.
+
+If we had the probability distribution that governs the demand, we would be able to simulate the demand uncertainty, and solve a randomized linear program (RLP) to find bid prices. However, the only information provided is the expected demand for each package. Thus, we can use the optimal shadow prices as bid price approximations. The shadow price associated with each constraint shows the amount of change in objective function value if we increase the right hand side of the constraint by an infinitesimal change. The table below shows the breakdown of bid prices approximation in both alternatives.
+
+|Nights|Without Mayor's guideline|Subject to Mayor's guideline|
+|:---:|:---:|:---:|
+|First Night|200|300|
+|Second Night|100|0|
+|Third Night|0|00|
