@@ -160,4 +160,4 @@ Conclusion B:
 
 
 ## License
-This repository contains a [MIT LICENSE](
+This repository contains a [MIT LICENSE](https://github.com/iamphuc/Deterministic-Linear-Programming/blob/main/LICENSE)
