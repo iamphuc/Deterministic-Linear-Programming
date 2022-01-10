@@ -71,4 +71,13 @@ The first approach is manual for two reasons. First, the objective function is c
 
 The second approach is automated the problem construction and the data are seperated (the .mod and the .dat files). The .run is also a seperated file where you can specify which solver to use and which problem to solve. In our case, there are two problem alternatives to be solved (with and without Mayor's guideline).
 
-All implementation files are uploaded. The ones that have "_automated_" are designated to the second approach.  
+All implementation files are uploaded. The ones that have "_automated_" are designated to the second approach. 
+
+## Interpretation of Results
+We found that:
+- If the hotel doesn't follow the Mayor's guidance, the total revenue reaches **$104,000**.
+- If the hotel is to follow the Mayor's guidance, the total revenue reaches **$103,000**
+==> Therefore, in maximizing the revenue, the hotel management team should ignore the Mayor's restriction.
+
+
+
