@@ -20,3 +20,4 @@ The hotel is open only for 4 days (=3 nights) in June each year when the sailing
 
 Further, drawing on his experience that people who book a 1-night package spend much more money at the sailing events (i.e., food, souvenirs, etc), the mayor instructs the hotel management to assign at least 100 rooms to the 1-night package.
 
+*Side note: At this point, I encourage readers to think about the problem by themselves. Even if you can't come up with the analytical approach on your own, it's still good becoming aware of what goes into the problem. The following collapsed sections will guide you through how I and my partner tackled this problem.* 
