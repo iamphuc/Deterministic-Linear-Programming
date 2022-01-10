@@ -31,10 +31,13 @@ To solve this problem, we input the variables, the objective function, and the c
   <p>
     
     The underlying sets:
-    set J; #set of products j=1,...,5
-    set L; #set of legs l= "FN","SN","TN" representing First Night, Second Night, and Third Night respectively;
+    set J;    #set of products j=1,...,5
+    set L;    #set of legs l= "FN","SN","TN" representing First Night, Second Night, and Third Night respectively;
     
     The parameters:
-    
+    param p {j in J};           # prices of all products
+    param a {l in L, j in J};   # resource use binary identifier
+    param c {l in L};           # capacities for all legs l
+    param ED {j in J};          # expected demand of each product
    <p>
    </details>
