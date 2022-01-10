@@ -92,7 +92,9 @@ To understand where the difference is coming from, let's look at the optimal num
 
 <details><summary>CLICK ME</summary>
   <p>
-The hotel would have to give up 10 units of package 2 (higher pricec package) for 10 additional units of package 5 (lower price package) so that the minimum of 100 units single night packages (package 4 and package 5) can be met. This tradeoff resutls in a lower revenue for the hotel.
+
+    The hotel would have to give up 10 units of package 2 (higher pricec package) for 10 additional units of package 5 (lower price package) so that the minimum of 100 units single night packages (package 4 and package 5) can be met. This tradeoff resutls in a lower revenue for the hotel.
+    
    <p>
    </details>
 
@@ -114,8 +116,10 @@ Capacity consumption breakdown (subject to Mayor's guideline):
 
 <details><summary>CLICK ME</summary>
   <p>
-Because the demand for any single package is less than the capacity and because prices are descending by the package order from 1 to 5, it makes sense when all demand for package 1 (60 units) is sold first on the first night. It then follows that all demand for package 2 (60 units) would be sold because the remaining capacity after selling pacakge 1 is 90 units (150 - 60 = 90 units) However, 4o rooms were sold to package 2. The reason lies in the third night. Because package 2 does not require capacity on the third night, demand for package 3 is given priority after all demand from package 1 (60 units) is served. Demands for package 2 (60 units) are then left with only 40 rooms (150 - 60 - 50 = 40 rooms).
+
+    Because the demand for any single package is less than the capacity and because prices are descending by the package order from 1 to 5, it makes sense when all demand for package 1 (60 units) is sold first on the first night. It then follows that all demand for package 2 (60 units) would be sold because the remaining capacity after selling pacakge 1 is 90 units (150 - 60 = 90 units) However, 4o rooms were sold to package 2. The reason lies in the third night. Because package 2 does not require capacity on the third night, demand for package 3 is given priority after all demand from package 1 (60 units) is served. Demands for package 2 (60 units) are then left with only 40 rooms (150 - 60 - 50 = 40 rooms).
     
-This result is robust across different cases (with Mayor's guidance versus without Mayor's guidance) because the guidance does not affect the sale of package 1 and package 3. Intuitively, it makes sense to reserve just 100 rooms for the sale of package 4 and package 5 because prices of these two packages are much lower than prices of package 1, package 2, and package 3. However, the usage of package 4 and package 5 does not concentrate on one night. Demand for package 5 arrives on the first night while demand for package 4 arrives on the third night. Therefore, the hotel is able to serve more of the higher price packages. That makes the difference between the two cases only $1,000.
+  This result is robust across different cases (with Mayor's guidance versus without Mayor's guidance) because the guidance does not affect the sale of package 1 and package 3. Intuitively, it makes sense to reserve just 100 rooms for the sale of package 4 and package 5 because prices of these two packages are much lower than prices of package 1, package 2, and package 3. However, the usage of package 4 and package 5 does not concentrate on one night. Demand for package 5 arrives on the first night while demand for package 4 arrives on the third night. Therefore, the hotel is able to serve more of the higher price packages. That makes the difference between the two cases only $1,000.
+    
    <p>
    </details>
