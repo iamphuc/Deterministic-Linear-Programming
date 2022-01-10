@@ -82,14 +82,13 @@ We found that:
 
 To understand where the difference is coming from, let's look at the optimal number of packages sold per each package type.
 
-|No.|Package|Optimal number of packages sold|
-|No.|Package|Price|Expected Demand|
+|No.|Package|Without Mayor's guideline|Subject to Mayor's guideline|
 |:---:|:---|:---:|:---:|
-|1|3-night stay (day 1 to 4)|900|60|
-|2|2-night stay (day 1 to 3)|300|60|
-|3|2-night stay (day 2 to 4)|400|50|
-|4|1-night stay (day 3 to 4)|200|40|
-|5|1-night stay (day 1 to 2)|200|80|
+|1|3-night stay (day 1 to 4)|60|60|
+|2|2-night stay (day 1 to 3)|40|30|
+|3|2-night stay (day 2 to 4)|50|50|
+|4|1-night stay (day 3 to 4)|40|40|
+|5|1-night stay (day 1 to 2)|50|60|
 
 
 
