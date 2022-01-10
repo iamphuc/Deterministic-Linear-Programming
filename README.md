@@ -80,5 +80,16 @@ We found that:
 
 => Therefore, in maximizing the revenue, the hotel management team should ignore the Mayor's restriction.
 
+To understand where the difference is coming from, let's look at the optimal number of packages sold per each package type.
+
+|No.|Package|Optimal number of packages sold|
+|No.|Package|Price|Expected Demand|
+|:---:|:---|:---:|:---:|
+|1|3-night stay (day 1 to 4)|900|60|
+|2|2-night stay (day 1 to 3)|300|60|
+|3|2-night stay (day 2 to 4)|400|50|
+|4|1-night stay (day 3 to 4)|200|40|
+|5|1-night stay (day 1 to 2)|200|80|
+
 
 
