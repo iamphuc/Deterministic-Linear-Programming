@@ -30,7 +30,10 @@ To solve this problem, we input the variables, the objective function, and the c
 <details><summary>CLICK ME</summary>
   <p>
     The underlying sets:
-set J; #set of products j=1,...,5
-set L; #set of legs l= "FN","SN","TN" representing First Night, Second Night, and Third Night
+    set J; #set of products j=1,...,5
+    set L; #set of legs l= "FN","SN","TN" representing First Night, Second Night, and Third Night respectively;
+    
+    The parameters:
+    
    <p>
    </details>
