@@ -149,7 +149,11 @@ If we had the probability distribution that governs the demand, we would be able
 |Second Night|100|0|
 |Third Night|0|00|
 
-Conclusion:
+Conclusion A:
 1. In the first alternative, the opportunity cost of the bedroom resources in the first, second, and third nights are 200, 100, and 0, respectively. 
-2. When the hotel is made to follow the Mayor's guideline, the opportunity cost of the first night will increase to 300, but the internal prices for two other nights are 200. Therefore,
-      a. In both alternatives, the hotel is willing to accept requests for package no. 1,3,4 if there would be available capacity.          Because the prices for these packages exceed the sum of bid prices for all associated resources. 
+2. When the hotel is made to follow the Mayor's guideline, the opportunity cost of the first night will increase to 300, but the internal prices for two other nights are 200.
+
+Conclusion B:
+1. In both alternatives, the hotel is willing to accept requests for package no. 1,3,4 if there would be available capacity. Because the prices for these packages exceed the sum of bid prices for all associated resources.
+2. When the hotel is made to follow the Mayor's guideline, the opportunity cost of the required resources for the package no. 5 exceeds its price. Thus, it is clear that the hotel will accommodate the Mayor's request by selling package 4 (1-night stay: day 3 to day 4) which only uses third night capacity with zero opportunity cost.
+3. In both alternatives, the opportunity cost of the required resources for the package no. 2 is equivalent to its price.
