@@ -2,7 +2,7 @@
 # Reset previous results
 reset;
 # Specifiy folder directory
-option ampl_include '[*fill in the directory where you keep the .mod and .dat files*]';
+option ampl_include '[fill in the directory where you keep the .mod and .dat files]'; *Note: you need to remove the square bracket after putting in the directory
 # Load model
 model 'OPM682_HA_automated.mod';
 # Load data
