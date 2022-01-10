@@ -24,7 +24,7 @@ Further, drawing on his experience that people who book a 1-night package spend 
 
 ## Model Construction
 
-Based on the given information, it's worthwhile to note that the total expected demands for the 5 different packages exceed the hotel capacity. In addition, there is a variance in the length of stay required by the 5 different packages. This can be thought of as having inventory of different products that can only be serviced at specific time interval. In the world of revenue management, this is a network revenue management problem. 
+Based on the given information, it's worthwhile to note that the total expected demands for the 5 different packages exceed the hotel capacity. In addition, there is a variance in the length of stay required by the 5 different packages. This can be thought of as having inventory of different products that can only be serviced at specific time interval. In the world of revenue management, this is a **network revenue management problem**. 
 
 To solve this problem, we input the variables, the objective function, and the consraints into AMPL as follows.
 <details><summary>CLICK ME</summary>
@@ -90,5 +90,17 @@ To understand where the difference is coming from, let's look at the optimal num
 |4|1-night stay (day 3 to 4)|40|40|
 |5|1-night stay (day 1 to 2)|50|60|
 
+The hotel would have to give up 10 units of package 2 (higher pricec package) for 10 additional units of package 5 (lower price package) so that the minimum of 100 units single night packages (package 4 and package 5) can be met. This tradeoff resutls in a lower revenue for the hotel. 
 
+We can also look at the consumption breakdown of the mutual resource (bedrooms) on each leg (night). 
+
+Capacity consumption breakdown (without Mayor's guideline):
+|Nights|Package 1|Package 2|Package 3|Package 4|Package 5|Sum|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|First Night|60|40|0|0|50|150|
+|Second Night|60|40|50|0|0|150|
+|Third Night|60|0|50|40|0|150|
+
+
+Capacity consumption breakdown (subject to Mayor's guideline):
 
