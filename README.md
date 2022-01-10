@@ -77,6 +77,7 @@ All implementation files are uploaded. The ones that have "_automated_" are desi
 We found that:
 - If the hotel doesn't follow the Mayor's guidance, the total revenue reaches **$104,000**.
 - If the hotel is to follow the Mayor's guidance, the total revenue reaches **$103,000**
+
 ==> Therefore, in maximizing the revenue, the hotel management team should ignore the Mayor's restriction.
 
 
