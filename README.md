@@ -9,7 +9,7 @@ We, assuming the role of management team at a hotel on a small island in the Nor
 The table below summarizes our products and the corresponding prices and expected demands.
 
 |No.|Package|Price|Expected Demand|
-|---|---|---|---|
+|:---:|:---|:---:|:---:|
 |1|3-night stay (day 1 to 4)|900|60|
 |2|2-night stay (day 1 to 3)|300|60|
 |3|2-night stay (day 2 to 4)|400|50|
