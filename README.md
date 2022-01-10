@@ -29,6 +29,7 @@ Based on the given information, it's worthwhile to note that the total expected 
 To solve this problem, we input the variables, the objective function, and the consraints into AMPL as follows.
 <details><summary>CLICK ME</summary>
   <p>
+    
     The underlying sets:
     set J; #set of products j=1,...,5
     set L; #set of legs l= "FN","SN","TN" representing First Night, Second Night, and Third Night respectively
