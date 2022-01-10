@@ -20,7 +20,7 @@ The hotel is open only for 4 days (=3 nights) in June each year when the sailing
 
 Further, drawing on his experience that people who book a 1-night package spend much more money at the sailing events (i.e., food, souvenirs, etc), the mayor instructs the hotel management to assign at least 100 rooms to the 1-night package.
 
-*Side note: At this point, I encourage readers to think about the problem by themselves. Even if you can't come up with the analytical approach on your own, it's still good becoming aware of what goes into the problem. The following collapsed sections will guide you through how I and my partner tackled this problem.* 
+*Side note: At this point, I encourage readers to think about the problem by themselves. Even if you cannot come up with the analytical approach on your own, it is still good becoming aware of what goes into the problem. The following collapsed sections will guide you through how I and my partner tackled this problem.* 
 
 ## Model Construction
 
@@ -61,3 +61,14 @@ To solve this problem, we input the variables, the objective function, and the c
     
    <p>
    </details>
+
+We created two alternatives. The first one does not include the constraint caused by the Mayor's guideline. We were interested in understanding if the hotel management should follow the Mayor's guideline (i.e., is revenue under Mayor's restriction greater than the amount under no restriction?).
+
+## Implementation
+There are 2 approaches to program this problem into AMPL. The first approach is manual and the second one is automated. 
+
+The first approach is manual for two reasons. First, the objective function is comprised of actual parameters (i.e., price) and variables (5 variables in total corresponding to 5 packages). Second, you also have to manually figure out the constraint inequalities. The hotel capacility constraint can be confusing and easy to make mistake. Therefore, this practice is error-prone and is inadvisble especially when you want to "play around" with the numbers later on. 
+
+The second approach is automated the problem construction and the data are seperated (the .mod and the .dat files). The .run is also a seperated file where you can specify which solver to use and which problem to solve. In our case, there are two problem alternatives to be solved (with and without Mayor's guideline).
+
+All implementation files are uploaded. The ones that have "_automated_" are designated to the second approach.  
