@@ -101,6 +101,11 @@ Capacity consumption breakdown (without Mayor's guideline):
 |Second Night|60|40|50|0|0|150|
 |Third Night|60|0|50|40|0|150|
 
-
 Capacity consumption breakdown (subject to Mayor's guideline):
+|Nights|Package 1|Package 2|Package 3|Package 4|Package 5|Sum|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|First Night|60|30|0|0|60|150|
+|Second Night|60|30|50|0|0|140|
+|Third Night|60|0|50|40|0|150|
+
 
