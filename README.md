@@ -157,3 +157,7 @@ Conclusion B:
 1. In both alternatives, the hotel is willing to accept requests for package no. 1,3,4 if there would be available capacity. Because the prices for these packages exceed the sum of bid prices for all associated resources.
 2. When the hotel is made to follow the Mayor's guideline, the opportunity cost of the required resources for the package no. 5 exceeds its price. Thus, it is clear that the hotel will accommodate the Mayor's request by selling package 4 (1-night stay: day 3 to day 4) which only uses third night capacity with zero opportunity cost.
 3. In both alternatives, the opportunity cost of the required resources for the package no. 2 is equivalent to its price.
+
+
+## License
+This repository contains a [MIT LICENSE](
